@@ -112,6 +112,10 @@ class SE:
                 w_exp.append(tf.reduce_mean(self.Gm([np.random.normal(size=(100, self.gan.mapping_dim)), c]), axis=0, keepdims=True))
             w_exp = tf.concat(w_exp, axis=0)
 
+            """
+            Here loss_rec = tf.reduce_mean(tf.square(xr - x)) is only used for demonstration, which need to be replaced with
+            loss_rec = metrics.AdaDPD(xr, x, weights="elia_wind/elia_wind_adadpd_weights.h5")
+            """
             loss_rec = tf.reduce_mean(tf.square(xr - x))
             loss_per = tf.reduce_mean(tf.abs(self.D([xr, c]) - self.D([x, c])))
             loss_man = tf.math.exp(-self.epsilon * step) * tf.reduce_mean(tf.square(w_exp - w[0]))
@@ -135,6 +139,12 @@ class SE:
                 break
 
         self.saveWeights()
+
+    def inference(self, w_pred, w_rand, delta=0.05):
+        """
+        The inference code is implemented in se_inference.py file.
+        """
+        pass
 
     def saveWeights(self):
         self.encoder.save_weights("{}/SE.h5".format(self.name))
