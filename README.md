@@ -16,6 +16,9 @@ Day-ahead scenario generation of renewable power plays an important role in shor
 - No less than 16G RAM.
 - One or more high-end NVIDIA GPUs is highly recommended to accelerate training process.
 
+## Randomly Generated Sample
+![generate](\assets\generate.gif)
+
 ## Contact
 
 For more information about code and methods, please feel free to contact Ran Yuan: yuanran1222@163.com
