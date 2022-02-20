@@ -17,7 +17,7 @@ Day-ahead scenario generation of renewable power plays an important role in shor
 - One or more high-end NVIDIA GPUs is highly recommended to accelerate training process.
 
 ## Randomly Generated Sample
-![generate](\assets\generate.gif)
+![generate](/assets/generate.gif)
 
 ## Contact
 
