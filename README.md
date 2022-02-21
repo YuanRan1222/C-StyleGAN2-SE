@@ -19,6 +19,9 @@ Day-ahead scenario generation of renewable power plays an important role in shor
 ## Randomly Generated Sample
 ![generate](/assets/generate.gif)
 
+## Scenario Style Mixing
+![StyleMix](/assets/StyleMix.png)
+
 ## Contact
 
 For more information about code and methods, please feel free to contact Ran Yuan: yuanran1222@163.com
