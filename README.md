@@ -1,7 +1,7 @@
 # Conditional Style-based Generative Adversarial Networks for Renewable Scenario Generation
 This repository contains source code necessary to reproduce the results presented in the following paper:
 
-Conditional Style-based Generative Adversarial Networks for Renewable Scenario Generation, Under review in *IEEE Transactions on Power Systems*.
+[Conditional Style-based Generative Adversarial Networks for Renewable Scenario Generation](https://ieeexplore.ieee.org/document/9765318), online published in *IEEE Transactions on Power Systems*, Apr. 2022.
 
 Authors: Ran Yuan, Bo Wang, Yeqi Sun, Xuanning Song, Junzo Watada.
 
