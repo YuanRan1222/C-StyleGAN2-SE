@@ -39,7 +39,7 @@ def elia_wind(mode):
         gan.loadWeights()
         gan.generate()
     elif mode == 3:  # Restart training sequence encoder
-        se.train(2)
+        se.train(steps=1000)
     else:
         return
 
